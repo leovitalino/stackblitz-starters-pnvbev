@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Calcule seu IMC</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="mascara-resultado" onclick="esconder()"></div>
+    <section class="dados">
+      <h1>Calcule seu IMC</h1>
+      <h3>Insira seus dados e descubra aqui o seu Indice de Massa Corporal!</h3>
+      <input class="peso" placeholder="Peso (em kg)" />
+      <input class="altura" placeholder="Altura (em mts)" />
+      <button>Calcular</button>
+    </section>
+
+    <section class="resultado-imc">
+      <p class="intro">O seu IMC é de:</p>
+      <p class="resultado">28.68</p>
+      <p class="texto">Significa que você está com sobrepeso</p>
+    </section>
+  </body>
+
+  <script src="script.js"></script>
+</html>
